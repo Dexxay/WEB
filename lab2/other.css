@@ -43,7 +43,7 @@ table {
 
     border: 2px #000000 solid;
     background-color: #87a47d;
-    min-width: 310px;
+    min-width: 340px;
 
     border-top: none;
     border-bottom: none;
@@ -62,7 +62,7 @@ table {
     justify-content: center;
     border: 2px #000000 solid;
     background-color: #87a47d;
-    min-width: 360px;
+    min-width: 340px;
 
     border-top: none;
     border-bottom: none;
@@ -186,8 +186,8 @@ table {
 }
 
 .image {
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    height: 68%;
 
     border: 2px #000000 solid;
     background-color: #b9ad71;
