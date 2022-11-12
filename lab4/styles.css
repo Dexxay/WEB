@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-image: url(https://rare-gallery.com/thumbs/917684-vector-digital-art-shapes-abstract-red.png);
+    background-size: cover;
+}
+
+.grid__wrapper {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container {
+    width: 1100px;
+    height: 100%;
+}
+
+.grid__content {
+    margin-bottom: 80px;
+    display: grid;
+    grid-template-rows: 250px 1fr;
+}
+
+.main__content {
+    display: flex;
+    justify-content: center;
+}
+
+.main__text__container {
+    height: 100%;
+    width: 660px;
+    margin: 10px auto 0;
+}
+
+.main__text__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__title {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 37px;
+    font-weight: lighter;
+    line-height: 100px;
+}
+
+.main__text p {
+    font-family: 'Raleway', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.flex__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #e5244f;
+    padding: 10 px 30px;
+
+    height: 45px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.button:hover {
+    transition: all 0.01s ease 0s;
+    background-color: #c51f43;
+}
+
+.card {
+    margin-right: 20px;
+    background-color: white;
+    height: 375px;
+    width: 340px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__container {
+    height: 375px;
+    width: 340px;
+}
+
+.card__header {
+    height: 210px;
+}
+
+.card__content {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__main {
+    height: 130px;
+}
+
+.card__title h4 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 1.375rem;
+    margin: 20px 0 0;
+}
+
+.card__text p {
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: italic;
+    margin-top: 20px;
+    color: gray;
+}
+
+.card__picture img {
+    filter: invert(26%) sepia(46%) saturate(7500%) hue-rotate(335deg) brightness(93%) contrast(92%);
+    width: 64px;
+    height: 64px;
+}
+
+.card__footer {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image__from {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 35px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.image__from a {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.header {
+    height: 80px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.header__container {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.search__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search__input {
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    padding-left: 10px;
+    height: 40px;
+    width: 200px;
+}
+
+.search__button {
+    margin-left: -25px;
+    margin-top: 5px;
+}
+
+.search__button img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.menu__burger img {
+    height: 30px;
+    width: 30px;
+}
+
+.menu__burger__hidden img {
+    filter: invert(100%);
+    height: 0px;
+    width: 0px;
+}
+
+.footer {
+    background-color: rgb(26, 26, 26);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.footer__container {
+    margin-left: 15%;
+
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    height: 45px;
+}
+
+.nav {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.nav__item {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.nav__item a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 760px) {
+    .menu {
+        display: none;
+    }
+
+    .grid__content {
+        margin-bottom: 80px;
+        display: grid;
+        grid-template-rows: 350px;
+    }
+
+    .main__container {
+        width: 100%;
+        height: 100%;
+    }
+
+    .main__title {
+        font-size: 19px;
+        line-height: 70px;
+    }
+
+    .main__text p {
+        margin: auto;
+        width: 70%;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .main__text__container {
+        width: 100%;
+    }
+
+    .main__cards {
+        margin-top: 0%;
+    }
+
+    .card {
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .flex__cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image__from {
+        font-size: 25px;
+    }
+
+    .header {
+        height: 120px;
+    }
+
+    .header__container {
+        flex-direction: column;
+    }
+
+    .footer__container {
+        margin-left: 0%;
+    }
+
+    .search__input {
+        width: 400px;
+    }
+
+    .menu__burger {
+        margin-top: 1%;
+    }
+
+    .menu__burger__hidden img {
+        height: 30px;
+        width: 30px;
+    }
+}
