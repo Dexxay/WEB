@@ -99,7 +99,7 @@ body {
 }
 
 .button:hover {
-    transition: 0.01s ease 0s;
+    transition: 0.5s ease 0s;
     background-color: #c51f43;
 }
 
@@ -155,6 +155,11 @@ body {
     filter: invert(26%) sepia(46%) saturate(7500%) hue-rotate(335deg) brightness(93%) contrast(92%);
     width: 64px;
     height: 64px;
+}
+
+.card__picture img:hover {
+    transition: 0.5s ease 0s;
+    filter: sepia(46%);
 }
 
 .card__footer {
@@ -224,7 +229,7 @@ body {
 }
 
 .search__button img:hover {
-    transition: 0.01s ease 0s;
+    transition: 0.5s ease 0s;
     background-color: #c3b7b9;
     border-radius: 15px;
 }
@@ -235,7 +240,7 @@ body {
 }
 
 .menu__burger img:hover {
-    transition: 0.01s ease 0s;
+    transition: 0.5s ease 0s;
     background-color: #c83e52;
     border-radius: 15px;
 }
@@ -247,7 +252,7 @@ body {
 }
 
 .menu__burger__hidden img:hover {
-    transition: 0.01s ease 0s;
+    transition: 0.5s ease 0s;
     background-color: #c83e52;
     border-radius: 15px;
 }
@@ -277,6 +282,11 @@ body {
 
 .logo img {
     height: 45px;
+}
+
+.logo img:hover {
+    transition: 2.5s ease 0s;
+    filter: invert(26%) sepia(46%) saturate(7500%) hue-rotate(335deg) brightness(93%) contrast(92%);
 }
 
 .nav {
