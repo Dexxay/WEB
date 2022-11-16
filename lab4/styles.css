@@ -152,14 +152,14 @@ body {
 }
 
 .card__picture img {
-    filter: invert(26%) sepia(46%) saturate(7500%) hue-rotate(335deg) brightness(93%) contrast(92%);
+    filter: sepia(100%) invert(26%) sepia(46%) saturate(7500%) hue-rotate(335deg) brightness(93%) contrast(92%);
     width: 64px;
     height: 64px;
 }
 
 .card__picture img:hover {
     transition: 0.5s ease 0s;
-    filter: sepia(46%);
+    filter: sepia(100%);
 }
 
 .card__footer {
