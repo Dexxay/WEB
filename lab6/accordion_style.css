@@ -1,0 +1,98 @@
+.accordion-body {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.delete-item {
+    width: 25%;
+    vertical-align: middle;
+
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: rgb(38, 184, 55);
+}
+
+.delete-item:hover {
+    background-color: rgb(14, 79, 22);
+    color: white;
+    transition: 0.2s;
+}
+
+.accordion-element {
+    background-color: rgb(80, 236, 98);
+    color: black;
+
+    cursor: pointer;
+    padding: 18px;
+    width: 75%;
+
+    border: 2px black solid;
+    border-radius: 10px;
+
+    text-align: center;
+    outline: none;
+    font-size: 20px;
+}
+
+.active,
+.accordion-element:hover {
+    background-color: rgb(14, 79, 22);
+    color: white;
+    transition: 0.2s;
+}
+
+.accordion-text {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(117, 189, 143);
+    border-radius: 10px;
+
+    margin-top: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+}
+
+.apply_button {
+    background-color: rgb(6, 153, 48);
+    transition: 0.2s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.apply_button:hover {
+    background-color: rgb(6, 107, 18);
+    color: white;
+    transition: 0.2s;
+}
+
+.accordion-button {
+    background-color: rgb(6, 153, 48);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+.accordion-button:hover {
+    background-color: rgb(15, 90, 25);
+    color: white;
+    transition: 0.2s;
+}
+
+textarea {
+    resize: none;
+}
